@@ -18,11 +18,11 @@ public class TinhDiemTrungBinh {
 
         diemTB = (diemToan + diemVan + diemAnh) / 3;
 
-        if (diemTB > 8 && diemTB <= 10) {
+        if (diemTB >= 8 && diemTB <= 10) {
             hocLuc = "Gioi";
-        } else if (diemTB > 6.5 && diemTB <= 8) {
+        } else if (diemTB >= 6.5 && diemTB < 8) {
             hocLuc = "Kha";
-        } else if (diemTB > 4 && diemTB <= 6.5) {
+        } else if (diemTB >= 4 && diemTB < 6.5) {
             hocLuc = "Trung Binh";
         } else {
             hocLuc = "Yeu";
